@@ -72,23 +72,6 @@ public class PlayerMovementBehaviour : MonoBehaviour
             transform.SetPositionAndRotation(new Vector3(0,0,0), new Quaternion());
         }
 
-        if ( transform.position.x > 10.9 && transform.position.x < 11 && _ended == false)
-        {
-            Debug.Log("hit");
-            transform.SetPositionAndRotation(new Vector3(10.9f, transform.position.y, 0), new Quaternion());
-            Rigidbody.gravityScale = 0.2f;
-            _ended = true;
-        }
-
-        if ( _ended == true && transform.position.y < 0.1 && transform.position.x <= 12.4)
-        {
-
-            Speed = 2;
-            Rigidbody.velocity = new Vector2(Speed, Rigidbody.velocity.y);
-
-            
-        }
-
         Animator.SetBool("IsGrounded", _isGrounded);
         Animator.SetFloat("velocityX", Mathf.Abs(Rigidbody.velocity.x));
         Animator.SetFloat("velocityY", Rigidbody.velocity.y);
