@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,7 +8,18 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text FruitText;
 
+    public Animator Animator;
+
     private int _fruitCount = 0;
+
+    public GameObject Player;
+
+    public RuntimeAnimatorController LittleAnimator;
+
+    public RuntimeAnimatorController BigAnimator;
+
+    public Collider2D BigCollider;
+    public Collider2D LittleCollider;
 
     private void Awake()
     {
@@ -25,4 +37,17 @@ public class GameManager : MonoBehaviour
     {
         FruitText.text = $"Pieces: {++_fruitCount}";
     }
+
+    public void KillPlayer()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    public void UpPlayer()
+    {
+        Animator.runtimeAnimatorController = BigAnimator;
+        BigCollider.isTrigger = false;
+        LittleCollider.isTrigger = true;
+    }
+
 }

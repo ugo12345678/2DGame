@@ -916,7 +916,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -937,7 +937,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -945,6 +945,174 @@ TextureImporter:
       bones: []
       spriteID: 50b373fd00077264f976fd1522bb9930
       internalID: 974979208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smb1_misc_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 590
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c81201b768f534cae32d42ac1bc561
+      internalID: -1131677087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smb1_misc_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 591
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8adc04e8043caa4ba2dee85a663309a
+      internalID: 1599235620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smb1_misc_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 590
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4023991b3bdebdb4d8737d3d284ec3de
+      internalID: 1990729820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smb1_misc_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 671
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed3b3609b8d1c2419b19d4491366307
+      internalID: 1136382547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smb1_misc_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 672
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a66a73be87b494bb1fabeaf6005797
+      internalID: -904875859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smb1_misc_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 672
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838c271e001414d4f951f8039eddc0b6
+      internalID: -1335984558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smb1_misc_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 673
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23ecb126a9fae54384d68c58bd0ee81
+      internalID: -1983855629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smb1_misc_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 671
+        width: 24
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60634fbbc5058b549996939effeecb3b
+      internalID: -1141802072
       vertices: []
       indices: 
       edges: []
@@ -995,6 +1163,14 @@ TextureImporter:
       smb1_misc_sprites_38: 1288064260
       smb1_misc_sprites_39: 974979208
       smb1_misc_sprites_4: 566207945
+      smb1_misc_sprites_40: -1131677087
+      smb1_misc_sprites_41: 1599235620
+      smb1_misc_sprites_42: 1990729820
+      smb1_misc_sprites_43: 1136382547
+      smb1_misc_sprites_44: -904875859
+      smb1_misc_sprites_45: -1335984558
+      smb1_misc_sprites_46: -1983855629
+      smb1_misc_sprites_47: -1141802072
       smb1_misc_sprites_5: 8355760
       smb1_misc_sprites_6: -506992947
       smb1_misc_sprites_7: 281037512
